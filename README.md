@@ -44,6 +44,22 @@ $ npm run start
 $ open http://localhost:3000/
 ```
 
+## How to use
+
+Search by city e.g. New York:
+
+<img src="images/city.png" width="65%" height="65%">
+<br>
+<br>
+Search by Zip Code (note, should include country code) e.g. V5T,CA:
+
+<img src="images/zipCode.png" width="65%" height="65%">
+<br>
+<br>
+Search by coordinates e.g. 53.3501, -6.2661:
+
+<img src="images/gps.png" width="65%" height="65%">
+
 ## Tests
 server-side end-to-end tests can be found in apps/server/test/app.e2e-spec.ts and unit tests can be found in apps/server/src/weather/weather.controller.spec.ts and apps/server/src/weather/weather.service.spec.ts
 
@@ -62,20 +78,4 @@ $ npm run test:e2e
 $ npm run test
 ```
 <img src="images/tests.png" width="50%" height="50%">
-
-## How to use
-
-Search by city e.g. New York:
-
-<img src="images/city.png" width="65%" height="65%">
-<br>
-<br>
-Search by Zip Code (note, should include country code) e.g. V5T,CA:
-
-<img src="images/zipCode.png" width="65%" height="65%">
-<br>
-<br>
-Search by coordinates e.g. 53.3501, -6.2661:
-
-<img src="images/gps.png" width="65%" height="65%">
 
