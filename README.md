@@ -21,27 +21,27 @@ add a .env file in root directory with the open weather api key (https://openwea
 OPEN_WEATHER_API_KEY="your_api_key"
 
 ```bash
-$ touch .env
-$ echo OPEN_WEATHER_API_KEY="your_api_key" > .env
+touch .env
+echo OPEN_WEATHER_API_KEY="your_api_key" > .env
 ```
 
 Run npm install to install external dependencies:
 
 ```bash
-$ npm install
+npm install
 ```
 
 ## Running the app
 
 ```bash
 # build app
-$ npm run build
+npm run build
 
 # run server - leave running
-$ npm run start
+npm run start
 
 # open frontend in browser
-$ open http://localhost:3000/
+open http://localhost:3000/
 ```
 
 ## How to use
@@ -66,16 +66,16 @@ server-side end-to-end tests can be found in apps/server/test/app.e2e-spec.ts an
 ### Running the tests
 ```bash
 # change to server directory
-$ cd apps/server
+cd apps/server
 
 # run all tests
-$ npm run test:all
+npm run test:all
 
 # run e2e tests
-$ npm run test:e2e
+npm run test:e2e
 
 # run unit tests
-$ npm run test
+npm run test
 ```
 <img src="images/tests.png" width="50%" height="50%">
 
