@@ -25,6 +25,8 @@ touch .env
 echo OPEN_WEATHER_API_KEY="your_api_key" > .env
 ```
 
+Ensure Node.js and npm is installed prior to these steps: https://nodejs.org/en/download/package-manager
+
 Run npm install to install external dependencies:
 
 ```bash
