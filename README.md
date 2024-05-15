@@ -45,8 +45,7 @@ $ open http://localhost:3000/
 ```
 
 ## Tests
-server-side end-to-end tests can be found in apps/server/test/app.e2e-spec.ts
-unit tests can be found in apps/server/src/weather/weather.controller.spec.ts and apps/server/src/weather/weather.service.spec.ts
+server-side end-to-end tests can be found in apps/server/test/app.e2e-spec.ts and unit tests can be found in apps/server/src/weather/weather.controller.spec.ts and apps/server/src/weather/weather.service.spec.ts
 
 ### Running the tests
 ```bash
