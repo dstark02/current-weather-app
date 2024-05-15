@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import './App.css';
+import { WeatherResponse } from './weather';
+
 
 enum ActiveAPI {
   City = 'City',

@@ -2,9 +2,6 @@ import { Test } from '@nestjs/testing';
 import { INestApplication, ValidationPipe } from '@nestjs/common';
 import * as pactum from 'pactum';
 import { CityDto, GpsDto, ZipDto } from '../src/weather/dto/request';
-import { WeatherService } from '../src/weather/weather.service';
-import { mockDeep } from 'jest-mock-extended';
-import { HttpService } from '@nestjs/axios';
 import { AppModule } from '../src/app.module';
 import * as nock from 'nock';
 
